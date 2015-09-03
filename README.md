@@ -6,7 +6,7 @@ How to use
 ==========
 
 ~~~c++
-#include "moFileReader.h"
+#include "moFileReaderLib.h"
 
 moFileReader i18n;
 
