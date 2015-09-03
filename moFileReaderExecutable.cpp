@@ -1,8 +1,5 @@
 #include "moFileReader.h"
 
-#include <iostream>
-#include <cstdlib>
-
 void printHelp() {
     printf("moFileReader version 2.0\n");
     printf("Usage: <option> <params>\n");
