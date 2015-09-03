@@ -1,6 +1,7 @@
 mofilereader
 ============
-Very small lib that you can use to read .mo files. The lib is under 60 lines of code.
+
+Very small piece of code (compiled as static lib) that you can use to read cross-platform gettext .mo files with no dependencies. The lib is under 60 lines of code.
 
 How to use
 ==========
