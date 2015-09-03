@@ -58,7 +58,7 @@ void moFileReader::ClearTable()
 
 unsigned int moFileReader::GetNumStrings() const
 {
-    return m_lookup.size();
+    return (unsigned int)m_lookup.size();
 }
 
 std::string moFileReader::Lookup( const char* id ) const
@@ -348,7 +348,7 @@ moFileReader::eErrorCode moFileReader::ExportAsHTML(std::string infile, std::str
 
     // Beautify Output
     std::string fname;
-    unsigned int pos = infile.find_last_of(moPATHSEP);
+    size_t pos = infile.find_last_of(moPATHSEP);
     if ( pos != std::string::npos )
     {
         fname = infile.substr( pos+1, infile.length() );
