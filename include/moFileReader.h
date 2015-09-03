@@ -7,11 +7,11 @@ class moFileReader {
 public:
     virtual ~moFileReader() {};
 
+    int readMemory(const char* memory, size_t memorySize);
     int readFile(const char* filename);
 
     const char* lookup(const char* id) const;
-    int exportAsHTML(std::string infile, std::string& outfilename);
-protected:
-    typedef std::map<std::string, std::string> moLookupList;
-    moLookupList m_lookup;
+
+    typedef std::map<std::string, std::string> translationMap_t;
+    translationMap_t translations;
 };
