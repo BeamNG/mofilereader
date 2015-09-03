@@ -6,10 +6,7 @@
 class moFileReader {
 public:
     virtual ~moFileReader() {};
-
     int readMemory(const char* memory, size_t memorySize);
-    int readFile(const char* filename);
-
     const char* lookup(const char* id) const;
 
     typedef std::map<std::string, std::string> translationMap_t;

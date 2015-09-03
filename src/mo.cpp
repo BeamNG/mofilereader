@@ -8,7 +8,7 @@ void printHelp() {
     printf("Usage: <option> <params>\n");
     printf("Possible Options: \n");
     printf("  lookup <mofile> <msgid>      - Outputs the given ID from the file\n");
-    printf("  export <mofile> <exportfile> - Exports the whole .mo-file as .mo text file\n");
+    printf("  export <mofile> <exportfile> - Exports the whole .mo-file as .po text file\n");
     printf("\n");
     printf("Example: export my18n.mo exportfile.txt\n");
     printf("Example: lookup my18n.mo \"lookupstring\"\n");
