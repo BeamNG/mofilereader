@@ -1,4 +1,4 @@
-#include "moFileReader.h"
+#include "moFileReaderLib.h"
 
 void printHelp() {
     printf("moFileReader version 2.0\n");

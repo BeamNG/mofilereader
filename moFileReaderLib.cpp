@@ -1,4 +1,4 @@
-#include "moFileReader.h"
+#include "moFileReaderLib.h"
 
 #define MOFR_MAX_BUF_LEN 9046
 
